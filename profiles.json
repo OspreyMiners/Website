@@ -1,0 +1,72 @@
+[
+  {
+        "name": "Juan M.",
+        "title": "Team Leader/Builder",
+        "description": "I'm interested in the design and manufacture of mechanical systems.  I intend to use the NASA RMC as an opportunity to enhance my skills in CAD and in the machine shop, and as a stepping stone to a career in aerospace.  ",
+        "photo": "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,h_720/v1453416430/juan_cntxku.jpg",
+        "isItLeft" : "Y"
+        },
+
+  {
+        "name": "Naga K.",
+        "title": "Programmer/Electrical",
+        "photo": "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,h_720/v1453416435/naga_l5t8ny.jpg",
+        "description": "As a computer scientist and engineer, I will build robots and tools to help remove all the tedious and dangerous tasks life will bring. Through NASA RMC and work experience, I will gain the skills and tools necessary to build these time and life saving tools. If you have interesting computer topic, I'm the guy who would love to talk to you.",
+        "isItLeft" : ""
+        },
+
+  {
+        "name": "Jarred B.",
+        "title": "Builder/Electrical",
+        "photo": "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,h_720/v1453416431/jarred_c1dqrj.jpg",
+        "description": "I'm a third year EE major with no prior robotics experience. Being the only electrical engineer on the team, I hope to push myself towards learning robotics application to contribute to the electrical system as much as possible. I enjoy extracurricular learning to go along with my schooling, as well as helping others succeed in the engineering program alongside me. ",
+        "isItLeft" : "Y"
+        },
+
+  {
+        "name": "CJ M.",
+        "title": "Builder",
+        "photo": "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,h_720/v1453422520/cj_uuzkxh.jpg",
+        "description": "Junior mechanical engineering student from the University of North Florida. Part of the first year team in 2015 and currently the Treasurer/Outreach Coordinator of the 2016 club. Biggest role I've played on the team is manufacturing and acquiring sponsorships. From the first year team of four to now a family of eight, I have full confidence in my teams ability to take home first place due to our diligent work and innovative design.",
+        "isItLeft" : ""
+        },
+
+  {
+        "name": "Brandon M.",
+        "title": "Programmer",
+        "photo": "http://res.cloudinary.com/ospreyminers/image/upload/v1453416431/mack_vn2clj.jpg",
+        "description": "I am an aspiring computer scientist currently studying at the University of North Florida and a member of the Osprey Miners. Through all my endeavors, I will take all that I have learned and utilize it in order to become an Artificial Intelligence researcher/developer. The world will improve through the course of my Artificial Intelligence.",
+        "isItLeft" : "Y"
+        },
+
+  {
+        "name": "Harris N.",
+        "title": "Builder",
+        "photo": "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,h_720/v1453416430/harris_zol2i5.jpg",
+        "description": "As a Junior in the Mechanical Engineering program and a second-year member of the Osprey Miners team, I am heading the design portion of Excavation and assisting in manufacturing for the 2015-2016 competition year.",
+        "isItLeft" : ""
+        },
+
+  {
+        "name": "Kai K.",
+        "title": "Builder",
+        "photo": "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,h_720/v1453416431/kia_yfyef2.jpg",
+        "description": "As a student in Mechanical Engineering, my interests lie close to robotics and machine design. The opportunities NASA and Caterpillar provide will help me develop my skills for the future.  My passion is with this team, because I believe in what we do and what we stand for. ",
+        "isItLeft" : "Y"
+        },
+
+  {
+        "name": "Ross J.",
+        "title": "Builder",
+        "photo": "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,h_720/v1453416430/ross_zf7its.jpg",
+        "description": "As a Mechanical Engineer and a first year member on the team, my goals for this year are to learn as much as possible in the aspects of the conception of ideas, fabrication, and  optimization. The NASA RMC provides a valuable learning ground for truly getting your hands dirty at an earlier point in a young engineer's career.",
+        "isItLeft" : ""
+        },
+  {
+        "name": "Dylan P.",
+        "title": "Social Media Marketing Manager",
+        "photo": "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1454463491/IMG_0415_pcppgu.jpg",
+        "description": "To me, engineering is more than just building things; its about solving the problem, big or small. The Osprey Miners team has allowed me to foster both my engineering skills and public relation skills as I contribute to the challenge of building incredibly complicated robots and sharing that experience with today's youth in way that makes them engaged and inspired to do what we do.",
+        "isItLeft" : "Y"
+        }
+]

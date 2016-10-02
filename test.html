@@ -1,0 +1,212 @@
+<!--
+    Made By:
+    Juan March and Nagavarun Kanaparthy
+-->
+<!--
+    Our website was made from the OneTel Template.
+    OneTel Template
+    http://www.templatemo.com/tm-468-onetel
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Title and Favicon-->
+	<title>Osprey Miners Home Page</title>
+    <link rel="shortcut icon" type="image/png" href="favicon/apple-icon-precomposed.png"/>
+    <!--META DATA for phones and SEO-->
+    <meta name="keywords" content="Robotics NASA RMC Mining Competition UNF North Florida">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- stylesheet css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/templatemo-style.css">
+	<!-- google web font css -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body ng-app="frontPage">
+
+<!-- navigation -->
+
+	<div class="container">
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand"><img src="images/logo.png" alt="logo"></a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html" class="active">HOME</a></li>
+				<li><a href="outreach.html">OUTREACH</a></li>
+				<li><a href="build.html">BUILD LOG</a></li>
+				<li><a href="interview.html">INTERVIEW</a></li>
+				<li><a href="profiles.html">PROFILES</a></li>
+				<li><a href="sponsors.html">SPONSORS</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- home section -->
+<div ng-controller="backgroundImage">
+    <div id="home" style="background: url('{{imgData.url}}') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;">
+	   <div class="container">
+		  <div class="row">
+		  	   <div class="col-md-5 col-sm-3"></div>
+               <div class="col-md-7 col-sm-9">
+                     <h1>Osprey Miners</h1>
+                     <h2>University of North Florida</h2>
+               </div>
+		  </div>
+	   </div>
+    </div>
+</div>
+<!-- divider section -->
+<div class="divider">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-3">
+				<div class="divider-wrapper divider-one">
+					<i class="glyphicon glyphicon-user" style="font-size: 85px"></i>
+					<h2>Outreach</h2>
+					<p>See how the we're supporting STEM education in the community.</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<div class="divider-wrapper divider-one">
+					<i class="glyphicon glyphicon-piggy-bank" style="font-size: 85px" ></i>
+					<h2>Sponsors</h2>
+					<p>Meet the generous companies and organizations that make our project possible.</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<div class="divider-wrapper divider-one">
+					<i class="glyphicon glyphicon-wrench" style="font-size: 85px"></i>
+					<h2>Build Log</h2>
+					<p>Check out a few photos and videos of our 2016 NASA RMC robot build process.</p>
+				</div>
+			</div>
+            <div class="col-md-3 col-sm-12">
+				<div class="divider-wrapper divider-one">
+					<i class="glyphicon glyphicon-wrench" style="font-size: 85px"></i>
+					<h2>NASA RMC</h2>
+					<p>Learn more about the NASA Robotic Mining Competition at the official website.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- about section -->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<img src="images/about-img.jpg" class="img-responsive" alt="about img">
+			</div>
+			<div class="col-md-6 col-sm-12 about-des">
+				<h2>About</h2>
+				<p>The Osprey Miners are a NASA Robotic Mining Compeition team from the University of North Florida in Jacksonville, FL.</p>
+				<p>We build robots and encourage kids in our community to get involved in Engineering.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- portfolio section -->
+<a href="#">
+<div id="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8 col-sm-12">
+				<h2>2016 Build Progress</h2>
+			</div>
+         </div>
+		 <!--Build photos-->
+         <div class="row mt30">
+			 <div ng-controller="photosData">
+				 <div class="col-md-4 col-sm-12 col-xs-12" ng-repeat="photo in photos">
+						 <img src="{{photo.url}}" alt="portfolio img">
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12">
+				<a href="build.html" class="btn btn-default">View More</a>
+			</div>
+		</div>
+	</div>
+</div>
+</a>
+<!-- copyright section -->
+<div class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<p>Copyright © Osprey Miners</p>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<ul class="social-icons">
+					<li><a href="https://www.facebook.com/OspreyMiners" class="fa fa-facebook"></a></li>
+					<li><a href="mailto:contact@ospreyminers.com" class="fa fa-envelope-o"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- javascript js -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script type="text/javascript">
+    var frontPage = angular.module("frontPage",[]);
+	frontPage.directive('backgroundImageDirective', function () {
+    return function (scope, element, attrs) {
+        element.css({
+            'background-image': 'url(' + attrs.backgroundImageDirective + ')',
+            'background-repeat': 'no-repeat',
+        });
+    };
+});
+	frontPage.factory('DataFactory', ['$http', function($http){
+		var bi = $http.get('/homeBackground.json');
+		var ph = $http.get('/homeImages.json');
+		return {
+			getBI : function(data){
+				bi.success(data);
+
+			},
+			getPhotos: function(data){
+				ph.success(data);
+			}
+		}
+	}]);
+    frontPage.controller('backgroundImage', ['$http', '$scope', 'DataFactory',
+	function($http,$scope, DataFactory){
+		DataFactory.getBI(function(data){
+			$scope.imgData = data;
+			console.log("data: %o", data);
+		});
+    }]);
+    frontPage.controller('photosData', ['$http', '$scope', 'DataFactory',
+		function($http,$scope, DataFactory){
+			DataFactory.getPhotos(function(data){
+				$scope.photos = data;
+				console.log("data: %o", data);
+			});
+	    }]);
+</script>
+</body>
+</html>

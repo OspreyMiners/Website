@@ -1,0 +1,390 @@
+<!--
+
+    Made by Brandon Mack
+
+-->
+
+<!--
+
+    Our website was made from the OneTel Template.
+
+    OneTel Template
+
+    http://www.templatemo.com/tm-468-onetel
+
+-->
+
+<!DOCTYPE html>
+
+<html lang=eg>
+
+
+
+<head>
+
+    <!--Title and Favicon-->
+
+    <title>Osprey Miners Statistics</title>
+
+    <link rel="shortcut icon" type="image/png" href="favicon/apple-icon-precomposed.png" />
+
+    <!--META DATA for phones and SEO-->
+
+    <meta name="keywords" content="Robotics NASA RMC Mining Competition UNF North Florida">
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- stylesheet css -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+    <link rel="stylesheet" href="vis/vis.css">
+
+    <link rel="stylesheet" href="vis/vis.min.css">
+
+    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="flot/excanvas.min.js"></script><![endif]-->
+
+    <!-- google web font css -->
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+
+
+    <!-- navigation -->
+
+    <div class="container">
+
+        <div class="navbar navbar-default navbar-static-top" role="navigation">
+
+            <div class="navbar-header">
+
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+                    <span class="icon icon-bar"></span>
+
+                    <span class="icon icon-bar"></span>
+
+                    <span class="icon icon-bar"></span>
+
+                </button>
+
+                <a href="#" class="navbar-brand"><img src="images/logo.png" alt="logo"></a>
+
+            </div>
+
+            <div class="collapse navbar-collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="index.html">HOME</a></li>
+
+                    <li role="presentation" class="dropdown">
+
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+
+                        OUTREACH <span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+
+                            <li><a href="outreach.html">Events</a></li>
+
+                            <li><a href="stats.html" class="active">Statistics</a></li>
+
+                            <!--<li><a href="#">Fill In Later</a></li>-->
+
+                        </ul>
+
+                    </li>
+
+                    <li><a href="build.html">BUILD LOG</a></li>
+
+                    <!--<li><a href="interview.html">INTERVIEW</a></li>-->
+
+                    <li><a href="team.html">TEAM</a></li>
+
+                    <li><a href="sponsors.html">SPONSORS</a></li>
+
+                    <li><a href="#social">CONTACT US</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Statistics Section-->
+
+    <div>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12">
+
+                    <!--<div>
+                        <div id="placeholder" style="width:600px;height:300px"></div>
+                    </div>-->
+
+                    <div style="width:100%; display: inline-block; font-size:11px;"></div>
+                    <div style="width:100%; display: inline-block; font-size:11px;"></div>
+                    <div style="width:100%; display: inline-block; font-size:11px;"></div>
+                    <div style="width:100%; display: inline-block; font-size:11px;"></div>
+                    <div style="width:100%; display: inline-block; font-size:11px;"></div>
+
+                    <h3 class="text-center">Outreach Statistics</h3>
+
+                    <div>
+                        <blockquote class="text-center">
+                            <p>
+                                Here are the statistics of all the events the Osprey Miners participated in during 2015-2016.
+                            </p>
+                            <table border="3" align="center">
+                                <tr>
+                                    <th>Events</th>
+                                    <th># of Team Member Attended</th>
+                                    <th>Hours Present</th>
+                                    <th>Attendees</th>
+                                    <th>Impact Hours</th>
+                                </tr>
+                                <tr>
+                                    <td>CoLabJax Grand Opening</td>
+                                    <td>1</td>
+                                    <td>4</td>
+                                    <td>~40</td>
+                                    <td>160</td>
+                                </tr>
+                                <tr>
+                                    <td>FIRST Lego League Kickoff</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>~250</td>
+                                    <td>7,500</td>
+                                </tr>
+                                <tr>
+                                    <td>UNF STEM Open House</td>
+                                    <td>4</td>
+                                    <td>3</td>
+                                    <td>~100</td>
+                                    <td>1,200</td>
+                                </tr>
+                                <tr>
+                                    <td>Vistakon MFG Day</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>~100</td>
+                                    <td>1,200</td>
+                                </tr>
+                                <tr>
+                                    <td>CROP</td>
+                                    <td>6</td>
+                                    <td>1.5</td>
+                                    <td>~30</td>
+                                    <td>270</td>
+                                </tr>
+                                <tr>
+                                    <td>River City Robot Rumble</td>
+                                    <td>4</td>
+                                    <td>9</td>
+                                    <td>~350</td>
+                                    <td>12,600</td>
+                                </tr>
+                                <tr>
+                                    <td>J. Allen Axson Elementary Science Fair</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>~15</td>
+                                    <td>60</td>
+                                </tr>
+                                <tr>
+                                    <td>FIRST Lego League Regional Championship</td>
+                                    <td>9</td>
+                                    <td>7</td>
+                                    <td>~500</td>
+                                    <td>31,500</td>
+                                </tr>
+                                <tr>
+                                    <td>FIRST Tech Challenge at Jacksonville University</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>~300</td>
+                                    <td>6,000</td>
+                                </tr>
+                                <tr>
+                                    <td>MOSH</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>~50</td>
+                                    <td>100</td>
+                                </tr>
+
+                            </table>
+							
+							<div>
+								<center>Impact Hours = ( # of team members at event × # of Hours spent at event × # of Attendees )</center>
+							</div>
+
+                            <div style="width:100%; display: inline-block; font-size:11px;"></div>
+
+                            <table border="3" align="center">
+                                <tr>
+                                    <th>Total # of Events Attended</th>
+                                    <th>Total # of Attendees at Events</th>
+                                    <th>Total # of Hours Present at Events</th>
+                                    <th>Total # of Impact Hours</th>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>1,735</td>
+                                    <td>192</td>
+                                    <td>60,590</td>
+                                </tr>
+                            </table>
+                        </blockquote>
+                    </div>
+
+                    <div id="visualization"></div>
+                </div>
+            </div>
+
+            <!-- social media section -->
+
+            <div class="copyright" id="footer">
+
+                <div class="container" id="social">
+
+                    <div class="row">
+
+                        <div class="row text-center">
+
+                            <p>Contacts</p>
+
+                        </div>
+
+                        <div class="col-md-12 col-sm-12">
+
+                            <ul class="social-icons text-center">
+
+                                <li>
+
+                                    <a href="https://www.facebook.com/OspreyMiners" class="fa fa-facebook"></a>
+
+                                </li>
+
+                                <li>
+
+                                    <a href="https://twitter.com/Osprey_Miners" class="fa fa-twitter"></a>
+
+                                </li>
+
+                                <li>
+
+                                    <a href="https://www.instagram.com/osprey_miners" class="fa fa-instagram"></a>
+
+                                </li>
+
+                                <li>
+
+                                    <a href="https://www.youtube.com/channel/UCNPLUL4KlqZKKHg8Zkmbwzw" class="fa fa-youtube"></a>
+
+                                </li>
+
+                                <li>
+
+                                    <a href="mailto:contact@ospreyminers.com" class="fa fa-envelope-o"></a>
+
+                                </li>
+
+
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- javascript js -->
+
+            <script src="flot/jquery.js"></script>
+
+            <script src="flot/jquery.flot.js"></script>
+
+            <script src="flot/jquery.flot.pie.js"></script>
+
+            <script src="vis/vis.js"></script>
+
+            <script src="vis/vis.min.js"></script>
+
+            <!--<script type="text/javascript">
+                $(function() {
+
+		var d1 = [];
+		for (var i = 0; i < 14; i += 0.5) {
+			d1.push([i, Math.sin(i)]);
+		}
+
+		var d2 = [[0, 3], [4, 8], [8, 5], [9, 13]];
+
+		// A null signifies separate line segments
+
+		var d3 = [[0, 12], [7, 12], null, [7, 2.5], [12, 2.5]];
+
+		$.plot("#placeholder", [ d1, d2, d3 ]);
+
+		// Add the Flot version string to the footer
+
+		$("#footer").prepend("Flot " + $.plot.version + " &ndash; ");
+	});
+            </script>-->
+
+            <script type="text/javascript">
+                //This timeline script came from visjs.org
+ 
+  // DOM element where the Timeline will be attached
+  var container = document.getElementById('visualization');
+
+  // Create a DataSet (allows two way data-binding)
+  var items = new vis.DataSet([
+    {id: 1, content: 'FIRST Tech Challenge at Jacksonville University', start: '2016-01-23'},
+    {id: 2, content: 'J. Allen Axson Elementary Science Fair', start: '2015-11-20'},
+    {id: 3, content: 'River City Robot Rumble', start: '2015-10-23'},
+    {id: 4, content: 'CROP', start: '2015-10-16'},
+    {id: 5, content: 'Vistakon MFG Day', start: '2015-09-17'},
+    {id: 6, content: 'UNF STEM Open House', start: '2015-09-10'},
+    {id: 7, content: 'FIRST Lego League Kickoff', start: '2015-08-29'},
+    {id: 8, content: 'CoLabJax Grand Opening', start: '2015-08-07'},
+    {id: 9, content: 'MOSH', start: '2016-02-19'},
+    {id: 10, content: 'FIRST Lego League Regional Championship', start: '2016-01-16'}
+    //{id: 9, content: 'item 9', start: '2014-04-27'}
+  ]);
+
+  // Configuration for the Timeline
+  var options = {};
+
+  // Create a Timeline
+  var timeline = new vis.Timeline(container, items, options);
+            </script>
+
+</body>
+
+
+
+</html>

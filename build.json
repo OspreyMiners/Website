@@ -1,0 +1,109 @@
+[
+	{
+        "title" : "Electronics Progress and Conveyor Completion",
+        "description" : "Electronics are going in now!  The conveyor belts have been installed and are working great!",
+        "photos" : [
+                        { "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1459997464/IMG_0738_vi55wo.jpg" },
+						{ "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1459997460/IMG_0729_brm42r.jpg" },
+						{ "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1459997460/IMG_0732_l95spd.jpg" },
+						{ "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1459997467/IMG_0742_zdu9bm.jpg" },
+						{ "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1459997698/IMG_0744_tsjuut.jpg" },
+						{ "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1459997469/IMG_0736_farflm.jpg" }
+                    ],
+        "FullAlbumURL" : "",
+        "Date" : "4/6/16",
+        "youtubeURL" : ""
+      },
+	{
+        "title" : "Digger Progress",
+        "description" : "Our digger is nearing completion!  Buckets need to be finished and installed.",
+        "photos" : [
+                        { "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1458601409/IMG_0613_uq6vk7.jpg" },
+                        { "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1458601408/IMG_0615_tjthdr.jpg" },
+						{ "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1458601404/IMG_0614_pvqjmj.jpg" },
+						{ "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1458601401/IMG_0612_n3lkf1.jpg" },
+						{ "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1458601397/IMG_0607_bpk2u9.jpg" },
+                        { "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1458601410/IMG_0608_nnvnyd.jpg" }
+                    ],
+        "FullAlbumURL" : "",
+        "Date" : "3/21/16",
+        "youtubeURL" : "Y3uFn77I0uU"
+      },
+	{
+        "title" : "Practice Arena Construction",
+        "description" : "We constructed a practice arena for the testing our robot miner.",
+        "photos" : "",
+        "FullAlbumURL" : "",
+        "Date" : "2/20/16",
+        "youtubeURL" : "k1xY6A0gwXY"
+      },
+    {
+        "title" : "L-Brackets",
+        "description" : "We made 80 of these L-brackets on the Bridgeport mill.",
+        "photos" : "",
+        "FullAlbumURL" : "",
+        "Date" : "1/11/16",
+        "youtubeURL" : "PuW6_mihQiQ"
+      },
+	{
+        "title" : "Custom Motor Shafts",
+        "description" : "We used an old 5/16-18 tap to cut some internal keyways.",
+        "photos" : "",
+        "FullAlbumURL" : "",
+        "Date" : "1/11/16",
+        "youtubeURL" : "2ahmbxChmmg"
+      },
+	{
+        "title" : "Bottom Conveyor Testing",
+        "description" : "Our first sand test of the lowest of our 5 conveyors.",
+        "photos" : "",
+        "FullAlbumURL" : "",
+        "Date" : "1/11/16",
+        "youtubeURL" : "gzYvoEtdRf0"
+      },
+
+	{
+        "title" : "Chassis Progress",
+        "description" : "Chassis progress as of early January.",
+        "photos" : [
+                        { "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1452383564/IMG_0095_specxt.jpg" },
+                        { "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1452383562/IMG_0092_zodnie.jpg" },
+                        { "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1452383561/IMG_0091_hwmrc7.jpg" }
+                    ],
+        "FullAlbumURL" : "",
+        "Date" : "1/11/16",
+        "youtubeURL" : ""
+      },
+	  
+	  {
+        "title" : "Conveyor Welding",
+        "description" : "Doing a bit of welding for some conveyor crossbars.",
+        "photos" : "",
+        "FullAlbumURL" : "",
+        "Date" : "1/24/16",
+        "youtubeURL" : "Lop24eE_O7M"
+      },
+
+	{
+        "title" : "3D Printed Wheels",
+        "description" : "Wheels printed by The3DConnectors.",
+        "photos" : [
+                        { "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1452383558/IMG_0084_rcsaac.jpg" },
+                        { "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1452383553/IMG_0078_wnrh20.jpg" },
+                        { "url" : "http://res.cloudinary.com/ospreyminers/image/upload/c_scale,w_720/v1452383561/IMG_0079_cxwaak.jpg" }
+                    ],
+        "FullAlbumURL" : "",
+        "Date" : "1/11/16",
+        "youtubeURL" : ""
+	},
+
+	{
+        "title" : "Weight-Reduction Hole Milling",
+        "description" : "Video of the team taking turns drilling a few holes on the Bridgeport Mill.",
+        "photos" : [
+                    ],
+        "FullAlbumURL" : "",
+        "Date" : "1/11/16",
+        "youtubeURL" : "qxuALF0p_zw"
+	}
+]
